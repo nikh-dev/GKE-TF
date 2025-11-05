@@ -4,12 +4,12 @@ variable "project" {
 
 variable "region" {
   type = string
-  default = "us-central1"
+  default = ""
 }
 
 variable "zone" {
   type    = string
-  default = "us-central1-a"
+  default = ""
 }
 
 variable "credentials" {
@@ -18,25 +18,26 @@ variable "credentials" {
 
 variable "cluster_name" {
   type = string
-  default = "tf-gke-demo"
+  default = ""
 }
 
 variable "network" {
   type = string
-  default = "default"
+  default = ""
 }
 
 variable "initial_node_count" {
   type = number
-  default = 2
+  default = 
 }
 
 variable "node_pool_min" {
   type = number
-  default = 1
+  default = 
 }
 
 variable "node_pool_max" {
   type = number
-  default = 5
+  default = 
 }
+
